@@ -46,3 +46,17 @@ font-size: 45px;
     align-items: center;
     justify-content: center;
   }
+  .image .fab {
+    position: absolute;
+    font-size: clamp(10rem, 80vw, 80vh);
+    transition: opacity 0.3s ease-in-out 0.5s;
+  }
+  .image .fa-galactic-republic {
+    color: #e4e4e4;
+    opacity: 0;
+  }
+  .image .fa-rebel {
+    color: #e4e4e4;
+    opacity: 1;
+  }
+  
