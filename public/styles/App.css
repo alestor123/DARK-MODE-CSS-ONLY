@@ -20,3 +20,19 @@ font-size: 45px;
     transition: background 0.3s ease;
   }
     
+  .label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background: black;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    width: 5rem;
+    transition: background 0.5s ease;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
