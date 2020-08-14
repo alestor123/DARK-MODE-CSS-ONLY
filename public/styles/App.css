@@ -81,4 +81,22 @@ font-size: 45px;
     transform: translateX(0);
     transition: transform 0.3s ease, background-color 0.5s ease;
   }
+  .fa-galactic-republic {
+    color: black;
+  }
   
+  .fa-rebel {
+    color: white;
+  }
+  .image .fab {
+    position: absolute;
+    font-size: clamp(10rem, 80vw, 80vh);
+    transition: opacity 0.3s ease-in-out 0.5s;
+  } 
+  .ball{
+    border-radius: 34px;
+  }
+  
+  .ball {
+    border-radius: 50%;
+  }
