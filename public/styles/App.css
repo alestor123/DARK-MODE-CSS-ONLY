@@ -2,3 +2,20 @@
     background-color: black;
 color:white;
 }
+checkbox:checked + .main .label .ball {
+    transform: translateX(2.5rem);
+  }
+  
+.checkbox {
+    display: none;
+  }
+  .main {
+    background-color:white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: background 0.3s ease;
+  }
+    
