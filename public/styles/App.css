@@ -10,6 +10,7 @@ checkbox:checked + .main .label .ball {
     display: none;
   }
   .main {
+font-size: 45px;
     background-color:white;
     color: black;
     display: flex;
