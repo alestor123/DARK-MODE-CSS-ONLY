@@ -1,0 +1,4 @@
+.checkbox:checked + .main {
+    background-color: black;
+color:white;
+}
